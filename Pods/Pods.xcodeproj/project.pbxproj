@@ -1,0 +1,974 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		081AD50A6DB27774F6AF98DD3C8864ED /* Pods-ClockInOutTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3FE1A56BD59D9B8983A2DABEEC74FCF /* Pods-ClockInOutTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09944176280C980EB49784DBCA380462 /* ReachabilitySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1DDE56472C3C9DF16E4AD6EA2992448 /* ReachabilitySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33CF97469D3F267E887B8320493B195A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D711FBA503A6418C1F1C8082286D5985 /* Foundation.framework */; };
+		3839FE345C0FCEE950ED608F8065A98B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D711FBA503A6418C1F1C8082286D5985 /* Foundation.framework */; };
+		55499B468EA04EEF3C6F6E48CADC2E32 /* Pods-ClockInOut-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0FB05EE18DFBB3CA10891FD29C8149 /* Pods-ClockInOut-dummy.m */; };
+		6D1F720A2683D1FE481D65B8EE24D0EC /* Pods-ClockInOut-ClockInOutUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBA641324EC76A3D22F0DE9DE869C357 /* Pods-ClockInOut-ClockInOutUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89A589D04411197399D7FCF7159AAE0A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6EE968254130456936592FAD883A845 /* CoreTelephony.framework */; };
+		8AE83CFF3B0E6BB515EB5C3EB555EBF9 /* Pods-ClockInOut-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBC734EAB1820D45B0FBFF6E9DE4FC7A /* Pods-ClockInOut-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94F5798F1E6F762F43A953CB00BBC650 /* Pods-ClockInOutTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BDB4BFF176FF7F7C20161AE0CBD577 /* Pods-ClockInOutTests-dummy.m */; };
+		A5B3A649BED370BB9E24869DEBA400BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D711FBA503A6418C1F1C8082286D5985 /* Foundation.framework */; };
+		AC96F44279E61358242F26840D4853F0 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4904C2121D407349697EEC458E7A2C0 /* Reachability.swift */; };
+		D921FCE56AF9FDCB7340F6DCD31C73F6 /* Pods-ClockInOut-ClockInOutUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FEAF97855DCEFB1B753094A0860BF5 /* Pods-ClockInOut-ClockInOutUITests-dummy.m */; };
+		E29C0900E1F8F1D07A87A23282E750AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D711FBA503A6418C1F1C8082286D5985 /* Foundation.framework */; };
+		E5938189529B1F8BD074BB166C8BDE57 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F64256263F0F1E673BCBD67DF6958420 /* SystemConfiguration.framework */; };
+		E5F6ACACDF29D937A21E7DEC85A13E3E /* ReachabilitySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DB674B68B432A02697EB1664B9CD4E /* ReachabilitySwift-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C461FEFC6945FCF7011D2A7CB360E24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B00B2C167CD783351BD1D00BD5AD1F8;
+			remoteInfo = ReachabilitySwift;
+		};
+		7FCEB84CE3FC78043C29A9A2939C86CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FB86DE8CD149314BFC6B79A770B26D9;
+			remoteInfo = "Pods-ClockInOut";
+		};
+		B778484AABBFC22FB26576DF5F6B2BE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B00B2C167CD783351BD1D00BD5AD1F8;
+			remoteInfo = ReachabilitySwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06A6214A897F9B48E01FA97183EEAEEA /* Pods-ClockInOutTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ClockInOutTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		06B8E3C76D4B4EB4075221D13EC3CD68 /* Pods-ClockInOutTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ClockInOutTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		097F9C02E25FAFB2E7C90D442D3A0D55 /* ReachabilitySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-prefix.pch"; sourceTree = "<group>"; };
+		10DB674B68B432A02697EB1664B9CD4E /* ReachabilitySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReachabilitySwift-dummy.m"; sourceTree = "<group>"; };
+		11A724DB84799C6179B577E10ED5E6C1 /* Pods-ClockInOut-ClockInOutUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ClockInOut-ClockInOutUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1750C70EA0C0E42D9619E3A2B65E48B4 /* ReachabilitySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReachabilitySwift.modulemap; sourceTree = "<group>"; };
+		1CBEAF8673B125FE7E71CE1087157D2B /* Pods-ClockInOut-ClockInOutUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ClockInOut-ClockInOutUITests-Info.plist"; sourceTree = "<group>"; };
+		21B03CA622E690725A6626C088E1D09F /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Reachability.framework; path = ReachabilitySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		243916291A44CE9CE6B7B540A8374EE7 /* ReachabilitySwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.xcconfig; sourceTree = "<group>"; };
+		2D0FB05EE18DFBB3CA10891FD29C8149 /* Pods-ClockInOut-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ClockInOut-dummy.m"; sourceTree = "<group>"; };
+		2FBDDAD10C1ED8978932CD5342CA837A /* Pods-ClockInOutTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ClockInOutTests.modulemap"; sourceTree = "<group>"; };
+		38461E817DEA8569FB51F4499496CBE5 /* Pods_ClockInOut_ClockInOutUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ClockInOut_ClockInOutUITests.framework; path = "Pods-ClockInOut-ClockInOutUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AB5FBFCF2A377B903193A54550954D1 /* Pods-ClockInOut-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ClockInOut-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4F7740FFEF1129929261EA4A2E7933AA /* Pods-ClockInOut-ClockInOutUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ClockInOut-ClockInOutUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		57F2D27A1CCEE6542C72024DEA1EC4E7 /* Pods-ClockInOut-ClockInOutUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ClockInOut-ClockInOutUITests-frameworks.sh"; sourceTree = "<group>"; };
+		605C4AAB3F2B7D0763F4E4E6F5628BCA /* Pods_ClockInOutTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ClockInOutTests.framework; path = "Pods-ClockInOutTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60DE6B2F48B6DD293B2E623D2BA0EE57 /* ReachabilitySwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ReachabilitySwift-Info.plist"; sourceTree = "<group>"; };
+		6DBC49E95461E715F0BBE5CFF944D489 /* Pods-ClockInOut-ClockInOutUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClockInOut-ClockInOutUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7305D53BE460A8EAA22D6E5970FB889B /* Pods-ClockInOut-ClockInOutUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClockInOut-ClockInOutUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7F0EDA5FB6BCBD4AA0930D728E01F69A /* Pods-ClockInOut.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClockInOut.release.xcconfig"; sourceTree = "<group>"; };
+		86BDF06788DAD3ABE26C96DD630A9246 /* Pods-ClockInOut.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClockInOut.debug.xcconfig"; sourceTree = "<group>"; };
+		8FAE130629AF6D2867412CCFEC47993C /* Pods-ClockInOutTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClockInOutTests.release.xcconfig"; sourceTree = "<group>"; };
+		962B7101FB038FA595A643428A0206CC /* Pods-ClockInOutTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClockInOutTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B8F6E55F80860B63F9AB4CE4869A537 /* Pods_ClockInOut.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ClockInOut.framework; path = "Pods-ClockInOut.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A21F4F139E9A4D8D1106534E9A6A5087 /* Pods-ClockInOutTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ClockInOutTests-Info.plist"; sourceTree = "<group>"; };
+		A3FE1A56BD59D9B8983A2DABEEC74FCF /* Pods-ClockInOutTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ClockInOutTests-umbrella.h"; sourceTree = "<group>"; };
+		A8BDB4BFF176FF7F7C20161AE0CBD577 /* Pods-ClockInOutTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ClockInOutTests-dummy.m"; sourceTree = "<group>"; };
+		B0FEAF97855DCEFB1B753094A0860BF5 /* Pods-ClockInOut-ClockInOutUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ClockInOut-ClockInOutUITests-dummy.m"; sourceTree = "<group>"; };
+		BAD3572AB8128AB259D2D86A5D730558 /* Pods-ClockInOut-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ClockInOut-Info.plist"; sourceTree = "<group>"; };
+		C9F453AF793ABCF51CE14B95C508B6C2 /* Pods-ClockInOut-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ClockInOut-frameworks.sh"; sourceTree = "<group>"; };
+		CA608A2E22D63D89952058C7DBB952C2 /* Pods-ClockInOut-ClockInOutUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ClockInOut-ClockInOutUITests.modulemap"; sourceTree = "<group>"; };
+		CBA641324EC76A3D22F0DE9DE869C357 /* Pods-ClockInOut-ClockInOutUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ClockInOut-ClockInOutUITests-umbrella.h"; sourceTree = "<group>"; };
+		D711FBA503A6418C1F1C8082286D5985 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E1DDE56472C3C9DF16E4AD6EA2992448 /* ReachabilitySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-umbrella.h"; sourceTree = "<group>"; };
+		E90CB5B877843AAE3D46BEB765B91E3B /* Pods-ClockInOut.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ClockInOut.modulemap"; sourceTree = "<group>"; };
+		F4904C2121D407349697EEC458E7A2C0 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Sources/Reachability.swift; sourceTree = "<group>"; };
+		F64256263F0F1E673BCBD67DF6958420 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		F6EE968254130456936592FAD883A845 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		FBC734EAB1820D45B0FBFF6E9DE4FC7A /* Pods-ClockInOut-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ClockInOut-umbrella.h"; sourceTree = "<group>"; };
+		FFF07BB554D395B92B8C137222FD533B /* Pods-ClockInOut-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ClockInOut-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72BDC45B032158A772FA68ADE9C66CD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E29C0900E1F8F1D07A87A23282E750AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A24C95BF81FC3445F7A3C56B9609617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3839FE345C0FCEE950ED608F8065A98B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A37A51219ED31062DE51A3E139BF37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A589D04411197399D7FCF7159AAE0A /* CoreTelephony.framework in Frameworks */,
+				33CF97469D3F267E887B8320493B195A /* Foundation.framework in Frameworks */,
+				E5938189529B1F8BD074BB166C8BDE57 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC86EC86576FF36206551B3A714D5CC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5B3A649BED370BB9E24869DEBA400BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65C892BC3ADB577FE47BB0D4B61FE2E0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CF39417573217980FD0F3BB88A17178 /* Pods-ClockInOut-ClockInOutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA608A2E22D63D89952058C7DBB952C2 /* Pods-ClockInOut-ClockInOutUITests.modulemap */,
+				4F7740FFEF1129929261EA4A2E7933AA /* Pods-ClockInOut-ClockInOutUITests-acknowledgements.markdown */,
+				11A724DB84799C6179B577E10ED5E6C1 /* Pods-ClockInOut-ClockInOutUITests-acknowledgements.plist */,
+				B0FEAF97855DCEFB1B753094A0860BF5 /* Pods-ClockInOut-ClockInOutUITests-dummy.m */,
+				57F2D27A1CCEE6542C72024DEA1EC4E7 /* Pods-ClockInOut-ClockInOutUITests-frameworks.sh */,
+				1CBEAF8673B125FE7E71CE1087157D2B /* Pods-ClockInOut-ClockInOutUITests-Info.plist */,
+				CBA641324EC76A3D22F0DE9DE869C357 /* Pods-ClockInOut-ClockInOutUITests-umbrella.h */,
+				6DBC49E95461E715F0BBE5CFF944D489 /* Pods-ClockInOut-ClockInOutUITests.debug.xcconfig */,
+				7305D53BE460A8EAA22D6E5970FB889B /* Pods-ClockInOut-ClockInOutUITests.release.xcconfig */,
+			);
+			name = "Pods-ClockInOut-ClockInOutUITests";
+			path = "Target Support Files/Pods-ClockInOut-ClockInOutUITests";
+			sourceTree = "<group>";
+		};
+		35744C2E0B1AA74EADA38D64D417B31B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2465A1001CAFE220BBCFAF703CE210C /* Pods-ClockInOut */,
+				2CF39417573217980FD0F3BB88A17178 /* Pods-ClockInOut-ClockInOutUITests */,
+				B86DE51A57F629F3AF5483826318FEE8 /* Pods-ClockInOutTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5D0AA215FB49F5F6E11902E9E88FDB66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB141DEEC5EED015062C5277880ECC86 /* ReachabilitySwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		65C892BC3ADB577FE47BB0D4B61FE2E0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F6EE968254130456936592FAD883A845 /* CoreTelephony.framework */,
+				D711FBA503A6418C1F1C8082286D5985 /* Foundation.framework */,
+				F64256263F0F1E673BCBD67DF6958420 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		70640F6406DB98D02EB917F513D35501 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B8F6E55F80860B63F9AB4CE4869A537 /* Pods_ClockInOut.framework */,
+				38461E817DEA8569FB51F4499496CBE5 /* Pods_ClockInOut_ClockInOutUITests.framework */,
+				605C4AAB3F2B7D0763F4E4E6F5628BCA /* Pods_ClockInOutTests.framework */,
+				21B03CA622E690725A6626C088E1D09F /* Reachability.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F3F68B3C039AAC6A565794AC383786B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1750C70EA0C0E42D9619E3A2B65E48B4 /* ReachabilitySwift.modulemap */,
+				243916291A44CE9CE6B7B540A8374EE7 /* ReachabilitySwift.xcconfig */,
+				10DB674B68B432A02697EB1664B9CD4E /* ReachabilitySwift-dummy.m */,
+				60DE6B2F48B6DD293B2E623D2BA0EE57 /* ReachabilitySwift-Info.plist */,
+				097F9C02E25FAFB2E7C90D442D3A0D55 /* ReachabilitySwift-prefix.pch */,
+				E1DDE56472C3C9DF16E4AD6EA2992448 /* ReachabilitySwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ReachabilitySwift";
+			sourceTree = "<group>";
+		};
+		AB141DEEC5EED015062C5277880ECC86 /* ReachabilitySwift */ = {
+			isa = PBXGroup;
+			children = (
+				F4904C2121D407349697EEC458E7A2C0 /* Reachability.swift */,
+				8F3F68B3C039AAC6A565794AC383786B /* Support Files */,
+			);
+			name = ReachabilitySwift;
+			path = ReachabilitySwift;
+			sourceTree = "<group>";
+		};
+		B86DE51A57F629F3AF5483826318FEE8 /* Pods-ClockInOutTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FBDDAD10C1ED8978932CD5342CA837A /* Pods-ClockInOutTests.modulemap */,
+				06B8E3C76D4B4EB4075221D13EC3CD68 /* Pods-ClockInOutTests-acknowledgements.markdown */,
+				06A6214A897F9B48E01FA97183EEAEEA /* Pods-ClockInOutTests-acknowledgements.plist */,
+				A8BDB4BFF176FF7F7C20161AE0CBD577 /* Pods-ClockInOutTests-dummy.m */,
+				A21F4F139E9A4D8D1106534E9A6A5087 /* Pods-ClockInOutTests-Info.plist */,
+				A3FE1A56BD59D9B8983A2DABEEC74FCF /* Pods-ClockInOutTests-umbrella.h */,
+				962B7101FB038FA595A643428A0206CC /* Pods-ClockInOutTests.debug.xcconfig */,
+				8FAE130629AF6D2867412CCFEC47993C /* Pods-ClockInOutTests.release.xcconfig */,
+			);
+			name = "Pods-ClockInOutTests";
+			path = "Target Support Files/Pods-ClockInOutTests";
+			sourceTree = "<group>";
+		};
+		C2465A1001CAFE220BBCFAF703CE210C /* Pods-ClockInOut */ = {
+			isa = PBXGroup;
+			children = (
+				E90CB5B877843AAE3D46BEB765B91E3B /* Pods-ClockInOut.modulemap */,
+				3AB5FBFCF2A377B903193A54550954D1 /* Pods-ClockInOut-acknowledgements.markdown */,
+				FFF07BB554D395B92B8C137222FD533B /* Pods-ClockInOut-acknowledgements.plist */,
+				2D0FB05EE18DFBB3CA10891FD29C8149 /* Pods-ClockInOut-dummy.m */,
+				C9F453AF793ABCF51CE14B95C508B6C2 /* Pods-ClockInOut-frameworks.sh */,
+				BAD3572AB8128AB259D2D86A5D730558 /* Pods-ClockInOut-Info.plist */,
+				FBC734EAB1820D45B0FBFF6E9DE4FC7A /* Pods-ClockInOut-umbrella.h */,
+				86BDF06788DAD3ABE26C96DD630A9246 /* Pods-ClockInOut.debug.xcconfig */,
+				7F0EDA5FB6BCBD4AA0930D728E01F69A /* Pods-ClockInOut.release.xcconfig */,
+			);
+			name = "Pods-ClockInOut";
+			path = "Target Support Files/Pods-ClockInOut";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				5D0AA215FB49F5F6E11902E9E88FDB66 /* Pods */,
+				70640F6406DB98D02EB917F513D35501 /* Products */,
+				35744C2E0B1AA74EADA38D64D417B31B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		09F7B7D04C454C16C0015640CF269F7E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09944176280C980EB49784DBCA380462 /* ReachabilitySwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC80B2ACEC4F05777AA574996CB8FE0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D1F720A2683D1FE481D65B8EE24D0EC /* Pods-ClockInOut-ClockInOutUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56D00C2C4B82F340DD9EC28C3C5A53BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				081AD50A6DB27774F6AF98DD3C8864ED /* Pods-ClockInOutTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62BC6762C5745533E96406722B72C30 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AE83CFF3B0E6BB515EB5C3EB555EBF9 /* Pods-ClockInOut-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E50A4613BA081C4F47DEEC1F9B9176BA /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */;
+			buildPhases = (
+				09F7B7D04C454C16C0015640CF269F7E /* Headers */,
+				9C9FF78F6878BCE13B73B6BB5DD0A609 /* Sources */,
+				92A37A51219ED31062DE51A3E139BF37 /* Frameworks */,
+				1EA4E360633A1D5CC11F6E9C4EEC2475 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReachabilitySwift;
+			productName = ReachabilitySwift;
+			productReference = 21B03CA622E690725A6626C088E1D09F /* Reachability.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4E2A2862FB14729C4144AE34074C653C /* Pods-ClockInOutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DB3135107A7F4218454CFB0737284DF /* Build configuration list for PBXNativeTarget "Pods-ClockInOutTests" */;
+			buildPhases = (
+				56D00C2C4B82F340DD9EC28C3C5A53BA /* Headers */,
+				EBC016108861BAAAB5A3A4F01B9FB5B8 /* Sources */,
+				8A24C95BF81FC3445F7A3C56B9609617 /* Frameworks */,
+				CB978992535B61ADA705730EDD1F800C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A9A6FFDCA91E7B7C9C30C25F6FE25A2 /* PBXTargetDependency */,
+			);
+			name = "Pods-ClockInOutTests";
+			productName = "Pods-ClockInOutTests";
+			productReference = 605C4AAB3F2B7D0763F4E4E6F5628BCA /* Pods_ClockInOutTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		70CD813C8F02FBF5C05FB40BD7EFA641 /* Pods-ClockInOut-ClockInOutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7ABE08DEC509A44DE6643D99A7F19F4 /* Build configuration list for PBXNativeTarget "Pods-ClockInOut-ClockInOutUITests" */;
+			buildPhases = (
+				1DC80B2ACEC4F05777AA574996CB8FE0 /* Headers */,
+				08353655D92821B7250867AEC58FDE9F /* Sources */,
+				72BDC45B032158A772FA68ADE9C66CD3 /* Frameworks */,
+				F74AA501E41BD65AE107684D9E05F8AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06BC5D3C69B80B7464BCF0CEF29903A3 /* PBXTargetDependency */,
+			);
+			name = "Pods-ClockInOut-ClockInOutUITests";
+			productName = "Pods-ClockInOut-ClockInOutUITests";
+			productReference = 38461E817DEA8569FB51F4499496CBE5 /* Pods_ClockInOut_ClockInOutUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9FB86DE8CD149314BFC6B79A770B26D9 /* Pods-ClockInOut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1736FAD96EB09D95AA4C1D136E0BC90C /* Build configuration list for PBXNativeTarget "Pods-ClockInOut" */;
+			buildPhases = (
+				B62BC6762C5745533E96406722B72C30 /* Headers */,
+				CB14D158FD1767BC8B903345BE8EB4D4 /* Sources */,
+				EC86EC86576FF36206551B3A714D5CC6 /* Frameworks */,
+				854A5C8C294A445EE549B05B4B9379B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A26BC248DA347B9CFEC25D92D3FD229 /* PBXTargetDependency */,
+			);
+			name = "Pods-ClockInOut";
+			productName = "Pods-ClockInOut";
+			productReference = 9B8F6E55F80860B63F9AB4CE4869A537 /* Pods_ClockInOut.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 70640F6406DB98D02EB917F513D35501 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FB86DE8CD149314BFC6B79A770B26D9 /* Pods-ClockInOut */,
+				70CD813C8F02FBF5C05FB40BD7EFA641 /* Pods-ClockInOut-ClockInOutUITests */,
+				4E2A2862FB14729C4144AE34074C653C /* Pods-ClockInOutTests */,
+				0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EA4E360633A1D5CC11F6E9C4EEC2475 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		854A5C8C294A445EE549B05B4B9379B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB978992535B61ADA705730EDD1F800C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F74AA501E41BD65AE107684D9E05F8AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08353655D92821B7250867AEC58FDE9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D921FCE56AF9FDCB7340F6DCD31C73F6 /* Pods-ClockInOut-ClockInOutUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C9FF78F6878BCE13B73B6BB5DD0A609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC96F44279E61358242F26840D4853F0 /* Reachability.swift in Sources */,
+				E5F6ACACDF29D937A21E7DEC85A13E3E /* ReachabilitySwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB14D158FD1767BC8B903345BE8EB4D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55499B468EA04EEF3C6F6E48CADC2E32 /* Pods-ClockInOut-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBC016108861BAAAB5A3A4F01B9FB5B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F5798F1E6F762F43A953CB00BBC650 /* Pods-ClockInOutTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06BC5D3C69B80B7464BCF0CEF29903A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReachabilitySwift;
+			target = 0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */;
+			targetProxy = B778484AABBFC22FB26576DF5F6B2BE3 /* PBXContainerItemProxy */;
+		};
+		4A26BC248DA347B9CFEC25D92D3FD229 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReachabilitySwift;
+			target = 0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */;
+			targetProxy = 4C461FEFC6945FCF7011D2A7CB360E24 /* PBXContainerItemProxy */;
+		};
+		7A9A6FFDCA91E7B7C9C30C25F6FE25A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ClockInOut";
+			target = 9FB86DE8CD149314BFC6B79A770B26D9 /* Pods-ClockInOut */;
+			targetProxy = 7FCEB84CE3FC78043C29A9A2939C86CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08AEB52972F8217DAAE4423F32B1CEAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F0EDA5FB6BCBD4AA0930D728E01F69A /* Pods-ClockInOut.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ClockInOut/Pods-ClockInOut-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ClockInOut/Pods-ClockInOut.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		600AC5AF2C8C91F124EF774C4573A849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DBC49E95461E715F0BBE5CFF944D489 /* Pods-ClockInOut-ClockInOutUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ClockInOut-ClockInOutUITests/Pods-ClockInOut-ClockInOutUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ClockInOut-ClockInOutUITests/Pods-ClockInOut-ClockInOutUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7CC909C6BFB8643AB43D0DC26894C955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86BDF06788DAD3ABE26C96DD630A9246 /* Pods-ClockInOut.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ClockInOut/Pods-ClockInOut-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ClockInOut/Pods-ClockInOut.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8D9C5DF25380D913350BDCA225353A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 243916291A44CE9CE6B7B540A8374EE7 /* ReachabilitySwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F2EE87B5AE44760A5F36BD3FC4DC89D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FAE130629AF6D2867412CCFEC47993C /* Pods-ClockInOutTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ClockInOutTests/Pods-ClockInOutTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ClockInOutTests/Pods-ClockInOutTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F32BE4AB1127DC774EA78740E28D1AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 962B7101FB038FA595A643428A0206CC /* Pods-ClockInOutTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ClockInOutTests/Pods-ClockInOutTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ClockInOutTests/Pods-ClockInOutTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D4A7F9E3FE3B37118A6FCEBE7DA678CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 243916291A44CE9CE6B7B540A8374EE7 /* ReachabilitySwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E032C235B5ABC774BB33A6B9AEC81AD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7305D53BE460A8EAA22D6E5970FB889B /* Pods-ClockInOut-ClockInOutUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ClockInOut-ClockInOutUITests/Pods-ClockInOut-ClockInOutUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ClockInOut-ClockInOutUITests/Pods-ClockInOut-ClockInOutUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1736FAD96EB09D95AA4C1D136E0BC90C /* Build configuration list for PBXNativeTarget "Pods-ClockInOut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC909C6BFB8643AB43D0DC26894C955 /* Debug */,
+				08AEB52972F8217DAAE4423F32B1CEAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DB3135107A7F4218454CFB0737284DF /* Build configuration list for PBXNativeTarget "Pods-ClockInOutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F32BE4AB1127DC774EA78740E28D1AB /* Debug */,
+				8F2EE87B5AE44760A5F36BD3FC4DC89D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7ABE08DEC509A44DE6643D99A7F19F4 /* Build configuration list for PBXNativeTarget "Pods-ClockInOut-ClockInOutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				600AC5AF2C8C91F124EF774C4573A849 /* Debug */,
+				E032C235B5ABC774BB33A6B9AEC81AD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E50A4613BA081C4F47DEEC1F9B9176BA /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4A7F9E3FE3B37118A6FCEBE7DA678CF /* Debug */,
+				8D9C5DF25380D913350BDCA225353A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

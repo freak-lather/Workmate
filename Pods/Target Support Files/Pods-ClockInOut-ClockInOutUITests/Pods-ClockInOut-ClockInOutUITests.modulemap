@@ -1,0 +1,6 @@
+framework module Pods_ClockInOut_ClockInOutUITests {
+  umbrella header "Pods-ClockInOut-ClockInOutUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
